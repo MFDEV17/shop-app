@@ -31,7 +31,6 @@ const CartsPage = () => {
     setCurrencyChoice,
     setCountryChoice,
     setMethodChoice,
-    createCart,
   } = useCartsPageState();
 
   return (
