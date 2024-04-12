@@ -33,7 +33,7 @@ const StoreCart = () => {
                     <span className=" text-hint_color">
                       ≈{" "}
                       <span className="[word-spacing:-0.15rem]">
-                        {39 * c?.euroEqual.toFixed(1)} {c?.currencyCode}
+                        {39 * c!.euroEqual} {c?.currencyCode}
                       </span>
                     </span>
                   </p>
